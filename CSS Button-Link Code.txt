@@ -1,0 +1,57 @@
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #d154ff;
+}
+
+.btn {
+  background-color: #2176FF;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #2176FF;
+  transition: all 1s ease-out; /* this cause the button you hover over to ease out for 1 second*/
+}
+
+.btn:active {
+  font-size: 18px;
+}
+
+.activity {
+  border: 1px solid #2176FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.activity:hover {
+  background-color: #fff;
+  color: #5495ff;
+  transition: all 1s ease-out;
+}
+
+.activity:active {
+  font-size: 40px;
+}
